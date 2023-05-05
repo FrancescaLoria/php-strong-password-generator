@@ -1,0 +1,14 @@
+body {
+  background-color: #001632;
+}
+
+.title {
+  font-size: 4rem;
+  color: lightseagreen;
+  margin-top: 50px;
+}
+
+.sub-title {
+  font-size: 3rem;
+  color: white;
+}
