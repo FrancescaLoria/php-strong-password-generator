@@ -39,7 +39,6 @@ include __DIR__ . "/functions.php";
               type="number"
               id="pwd"
               name="pwd"
-              minlength="8"
             /><br /><br />
             <button type="submit" class="btn btn-primary">INVIA</button>
             <button type="reset" class="btn btn-danger">ANNULLA</button>

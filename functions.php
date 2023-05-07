@@ -15,7 +15,11 @@
            $generatedPass = $generatedPass . $chars[$randomNum];
         }
 
-        return $generatedPass;
+        session_start();
+
+        $_SESSION["myPassword"] = $generatedPass;
+
+        header("Location: ./showpass.php ");
     }
 
 
